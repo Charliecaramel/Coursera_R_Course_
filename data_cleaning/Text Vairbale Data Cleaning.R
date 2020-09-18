@@ -8,7 +8,7 @@
 # 2. Variables with character values 
 #    - Shoudl usualy be made intor factors, depedning on the situation
 #    - should be descprtive (when coding the levels, the factor lables needs to
-#      be english reaable)
+#      be english reaable) 
 
 fileurl <- "https://data.baltimorecity.gov/api/views/aqgr-xx9h/rows.csv?accessType=DOWNLOAD"
 download.file(fileurl,destfile = "./data_cleaning/cameras.csv", method = "curl")
